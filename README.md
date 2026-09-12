@@ -63,17 +63,18 @@ Customers can select a product and contact Dimple_KreativeArts directly through 
 
 ```text
 Dimple_KreativeArts/
-│
+├── app/
+├── components/
+├── hooks/
+├── lib/
 ├── public/
-├── src/
-│   ├── components/
-│   ├── data/
-│   ├── pages/
-│   └── ...
-│
+├── .gitignore
+├── next.config.js
 ├── package.json
-├── README.md
-└── ...
+├── tailwind.config.ts
+├── tsconfig.json
+└── README.md
+```
 🎯 Project Goals
 
 The main goals of this project are:
